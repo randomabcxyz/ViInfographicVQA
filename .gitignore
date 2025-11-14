@@ -39,6 +39,13 @@ checkpoints/
 *.pth
 *.ckpt
 
+# Fine-tuning module specific
+ft-vlm/weight_save_train/*
+!ft-vlm/weight_save_train/.a
+ft-vlm/wandb/
+ft-vlm/src/ft_vlm/dataset/*
+!ft-vlm/src/ft_vlm/dataset/*.py
+
 # Temporary files
 *.tmp
 .cache/
